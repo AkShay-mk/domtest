@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questions</title>
+    <style>
+        h2{
+            text-align: center;
+            color: gold;
+            padding-top: 20px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #parent{
+            margin: 100px ;
+            background-color: rgb(75, 122, 122);
+            height: 100vh;
+            padding-left: 80px;
+        }
+        .d1{
+            margin: 70px ;
+            height: 50px;
+            background-color: white;
+            box-shadow: 0 0 10px black;
+           padding-top: 25px;
+           padding-left: 20px;
+           border-radius: 10px;
+
+        }
+        .d3{
+            color: rgb(131, 114, 21);
+        }
+        
+        
+    </style>
+    <script>
+        function cli() {
+            var di=document.getElementById("d3")
+            di.innerText="YES"
+            
+        }
+        cli()
+        function clic() {
+            var div=document.getElementById("d4")
+            div.innerText="YES"
+            
+        }
+        clic()
+        function cl() {
+            var div=document.getElementById("d5")
+            div.innerText="YES"
+            
+        }
+        cl()
+        
+    </script>
+</head>
+<body>
+    <div id="parent"><h2>general questions</h2>
+        <div class="d1" style="margin-right: 200px;">
+        <div class="d2" style="float: left;">Do You Accept All Credict Cards?</div>
+        <div id="d3" style="float: right;"><button onclick="cli()"><span class="material-icons-outlined">add</span></button></div>
+        </div>
+        <div class="d1" style="margin-right: 200px;">
+            <div class="d2" style="float: left;">Do You Support Local Farmers?</div>
+            <div id="d4" style="float: right;"><button onclick="clic()"><span class="material-icons-outlined">add</span></button></div>
+            </div>
+            <div class="d1" style="margin-right: 200px;">
+                <div class="d2" style="float: left;">Do You Use Organic Ingredients?</div>
+                <div id="d5" style="float: right;"><button onclick="cl()"><span class="material-icons-outlined">add</span></button></div>
+                </div>
+                
+                
+    </div>
+</body>
+</html>
